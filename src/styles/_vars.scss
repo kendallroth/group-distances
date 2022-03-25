@@ -1,0 +1,28 @@
+// Default spacing utility
+$spacing: 8;
+
+// Base breakpoint values (used in calculations without `px` value)
+$breakpoint-xs: 0;
+$breakpoint-sm: 600;
+$breakpoint-md: 960;
+$breakpoint-lg: 1264;
+$breakpoint-xl: 1904;
+
+// Text
+$text-titles: (
+  "h1": (
+    "size": 32px,
+    "height": 32px,
+    "weight": 600,
+  ),
+  "h2": (
+    "size": 24px,
+    "height": 24px,
+    "weight": 500,
+  ),
+  "h3": (
+    "size": 20px,
+    "height": 20px,
+    "weight": 500,
+  ),
+);

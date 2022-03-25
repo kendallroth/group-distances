@@ -1,0 +1,10 @@
+### Domain Redirects #####
+
+# Redirect http to https
+http://group-distances.kendallroth.ca/*                 https://group-distances.kendallroth.ca/:splat      301!
+
+# Redirect from Netlify subdomain to actual app subdomain
+https://kendallroth-group-distances.netlify.app/*       https://group-distances.kendallroth.ca/:splat      301!
+
+# Enable browser history pushstate
+/*  /index.html   200

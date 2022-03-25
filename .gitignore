@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+dist-ssr
+
+# Logs
+logs
+*.log
+
+# Tests
+coverage
+
+# Sample files
+samples/*
+!samples/.gitkeep
+
+# Assorted
+.env
+.DS_Store
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
