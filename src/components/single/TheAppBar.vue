@@ -27,6 +27,11 @@ import logo from "@assets/icon.png";
   margin-right: 16px;
   background-color: white;
   border-radius: 50%;
+
+  .v-img {
+    // NOTE: Production fix to resolve image not aligning properly with image container!
+    position: relative;
+  }
 }
 
 .app-bar__calculate {
